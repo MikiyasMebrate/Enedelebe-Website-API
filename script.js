@@ -1,4 +1,4 @@
-const accessKey = `k_ek7d126x`;
+const accessKey = `k_apdkd204`;
 const urlMostPolular = `https://imdb-api.com/en/API/MostPopularMovies/${accessKey}`;
 const urlBoxofficeMovies = `https://imdb-api.com/en/API/BoxOffice/${accessKey}`;
 const urlcomingSoon = `https://imdb-api.com/en/API/ComingSoon/${accessKey}`;
@@ -104,7 +104,7 @@ fetch(urlcomingSoon)
 
 
   function getID(id){
-     
+     alert(id);
     const urlGetMovie = id;
 
 

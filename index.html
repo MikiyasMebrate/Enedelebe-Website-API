@@ -43,7 +43,13 @@
           id="navBar"
         >
           <div class="navbar-nav">
-            <a href="index.html" class="nav-link me-2 active">Home</a>
+            <a
+              value="m"
+              onclick="getValue(this.value);"
+              href="index.html"
+              class="nav-link me-2 active"
+              >Home</a
+            >
             <a href="index.html" class="nav-link me-2">Movies</a>
             <a href="index.html" class="nav-link me-2">Tv Shows</a>
             <a href="index.html" class="nav-link me-2">Box Office</a>
@@ -53,16 +59,14 @@
       </div>
     </nav>
 
-
     <!--Popular Movies-->
     <div class="container-xl mb-5 mt-5">
       <h2 class="fw-normal">Pupular Movies</h2>
-      <div class="row mt-5" id="popularMoviesCard"></div>
+      <div class="row mt-5" id="popularMoviesCard">
+      </div>
     </div>
-
-
-     <!--Box Office Movies-->
-     <div class="container-xl mb-5 mt-5">
+    <!--Box Office Movies-->
+    <div class="container-xl mb-5 mt-5">
       <h2 class="fw-normal">BoxOffice Movies</h2>
       <div class="row mt-5" id="boxOfficeMovies"></div>
     </div>
@@ -73,12 +77,14 @@
       <div class="row mt-5" id="comingSoon"></div>
     </div>
 
-
-
-
-     <div class="text-center mb-5">
-      <a href="#nav" class="btn btn-warning rounded-circle"><img src="image/up.png" width="40px" class="img-fluids float-center" alt=""></a>
-     </div>
-    
+    <div class="text-center">
+      <a href="#nav" style="width: 50px; height: 50px;"  class="btn btn-warning rounded-circle"
+        ><img
+          src="image/up.png"
+          width="30px"
+          class="img-fluid mt-1"
+          alt=""
+      /></a>
+    </div>
   </body>
 </html>

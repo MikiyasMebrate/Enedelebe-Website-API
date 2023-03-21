@@ -59,11 +59,38 @@
       </div>
     </nav>
 
-    <!--Popular Movies-->
-    <div class="container-xl mb-5 mt-5">
-      <h2 class="fw-normal">Pupular Movies</h2>
-      <div class="row mt-5" id="popularMoviesCard">
+    <div
+      style="
+        background-image: url(image/wallpaper-Home-page.png);
+        background-position: center;
+        background-position-y: -80px;
+        background-repeat: no-repeat;
+        background-size: 100%;
+      "
+    >
+     <div style="padding-top: 90px;">
+      <h2 class="text-center text-white">Find Movies, TV shows and more</h2>
+     </div>
+      <div style="padding-top: 90px"></div>
+    </div>
+
+    <div class="container" style="margin-top: -30px;">
+      <div class="d-flex justify-content-center">
+        <input
+        style="max-width: 800px;"
+        class="form-control shadow-lg me-2 pt-3 pb-3 rounded-pill"
+        type="search"
+        placeholder="Search"
+        aria-label="Search"
+      />
+      <button class="btn btn-warning shadow-lg text-white rounded-pill" type="submit">Search</button>
       </div>
+    </div>
+
+    <!--Popular Movies-->
+    <div class="container-xl mb-5 mt-5 bg-light rounded">
+      <h2 class="fw-normal">Pupular Movies</h2>
+      <div class="row mt-5" id="popularMoviesCard"></div>
     </div>
     <!--Box Office Movies-->
     <div class="container-xl mb-5 mt-5">
@@ -78,12 +105,11 @@
     </div>
 
     <div class="text-center">
-      <a href="#nav" style="width: 50px; height: 50px;"  class="btn btn-warning rounded-circle"
-        ><img
-          src="image/up.png"
-          width="30px"
-          class="img-fluid mt-1"
-          alt=""
+      <a
+        href="#nav"
+        style="width: 50px; height: 50px"
+        class="btn btn-warning rounded-circle"
+        ><img src="image/up.png" width="30px" class="img-fluid mt-1" alt=""
       /></a>
     </div>
   </body>

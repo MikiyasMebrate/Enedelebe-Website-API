@@ -11,7 +11,7 @@ fetch(urlMostPolular)
 
     for (let i = 0; i < 36; i++) {
       let card = `<div class="col-lg-2 col-md-3 col-sm-4 col-6">
-        <button class="cards border-0 rounded"
+        <button class="cards  border-0 rounded"
         style="
         width: 170px;
         height: 260px;
@@ -104,7 +104,7 @@ fetch(urlcomingSoon)
 
 
   function getID(id){
-     alert(id);
+
     const urlGetMovie = id;
 
 

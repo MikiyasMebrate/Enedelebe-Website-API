@@ -15,9 +15,9 @@ API stands for Application Programming Interface. It is a set of protocols, rout
 
 some example of free APIs links
 
-`[https://restcountries.com/v2/all](https://restcountries.com/v2/all)`  ⇒ All countries 
+https://restcountries.com/v2/all](https://restcountries.com/v2/all  ⇒ All countries 
 
-`[https://api.thecatapi.com/v1/breeds](https://api.thecatapi.com/v1/breeds)` ⇒ Type cats
+https://api.thecatapi.com/v1/breeds](https://api.thecatapi.com/v1/breeds ⇒ Type cats
 
 ## How do Access It
 
